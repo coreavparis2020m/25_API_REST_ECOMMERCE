@@ -29,4 +29,20 @@ app.post('/', (req, res) => {
     })
 })
 
+app.get('/', (req, res) => {
+
+    Producto.find({}, (error, productos) => {
+        if (error) {
+            return res.status(400).json({
+                error: error
+            })
+        }
+
+        res.status(200).json({
+            productos: productos
+        })
+
+    })
+})
+
 module.exports = app;
