@@ -1,0 +1,16 @@
+{
+    "sku": "A23467",
+    "nombre": "Bañador Salmon Ocean",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "categoria": "hombre",
+    "pics": [
+        "http://localhost:3000/pics/banador1.jpg",
+        "http://localhost:3000/pics/banador2.jpg",
+        "http://localhost:3000/pics/banador3.jpg",
+        "http://localhost:3000/pics/banador4.jpg"
+    ],
+    "tallas": ["M","L","XL","XXL"],
+    "colores": ["unico"],
+    "etiquetas": ["verano","rebajas"],
+    "precio": 15
+}
