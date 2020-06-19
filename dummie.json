@@ -1,16 +1,66 @@
-{
-    "sku": "A23467",
-    "nombre": "Bañador Salmon Ocean",
-    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "categoria": "hombre",
-    "pics": [
-        "http://localhost:3000/pics/banador1.jpg",
-        "http://localhost:3000/pics/banador2.jpg",
-        "http://localhost:3000/pics/banador3.jpg",
-        "http://localhost:3000/pics/banador4.jpg"
-    ],
-    "tallas": ["M","L","XL","XXL"],
-    "colores": ["unico"],
-    "etiquetas": ["verano","rebajas"],
-    "precio": 15
-}
+[
+    {
+        "sku": "A23467",
+        "nombre": "Bañador Salmon Ocean",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "categoria": "hombre",
+        "pics": [
+            "http://localhost:3000/pics/banador1.jpg",
+            "http://localhost:3000/pics/banador2.jpg",
+            "http://localhost:3000/pics/banador3.jpg",
+            "http://localhost:3000/pics/banador4.jpg"
+        ],
+        "tallas": ["M","L","XL","XXL"],
+        "colores": ["unico"],
+        "etiquetas": ["verano","rebajas"],
+        "precio": 15
+    },
+    {
+        "sku": "F34567",
+        "nombre": "Camisa Flower Spring",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "categoria": "mujer",
+        "pics": [
+            "http://localhost:3000/pics/camisa1.jpg",
+            "http://localhost:3000/pics/camisa2.jpg",
+            "http://localhost:3000/pics/camisa3.jpg",
+            "http://localhost:3000/pics/camisa4.jpg"
+        ],
+        "tallas": ["S","M","L","XL"],
+        "colores": ["unico"],
+        "etiquetas": ["verano","rebajas"],
+        "precio": 18
+    },
+    {
+        "sku": "D45679",
+        "nombre": "Camiseta NASA",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "categoria": "hombre",
+        "pics": [
+            "http://localhost:3000/pics/nasa1.jpg",
+            "http://localhost:3000/pics/nasa2.jpg",
+            "http://localhost:3000/pics/nasa3.jpg",
+            "http://localhost:3000/pics/nasa4.jpg"
+        ],
+        "tallas": ["L","XL"],
+        "colores": ["unico"],
+        "etiquetas": ["verano"],
+        "precio": 21
+    },
+    {
+        "sku": "A567243",
+        "nombre": "Short Yellow Fantasy",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "categoria": "mujer",
+        "pics": [
+            "http://localhost:3000/pics/short1.jpg",
+            "http://localhost:3000/pics/short2.jpg",
+            "http://localhost:3000/pics/short3.jpg",
+            "http://localhost:3000/pics/short4.jpg"
+        ],
+        "tallas": ["M","L","XL"],
+        "colores": ["unico"],
+        "etiquetas": ["verano"],
+        "precio": 21
+    }
+]
