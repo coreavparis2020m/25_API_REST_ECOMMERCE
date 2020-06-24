@@ -45,4 +45,20 @@ app.get('/', (req, res) => {
     })
 })
 
+app.get('/:_id', (req, res) => {
+
+    Producto.findById(req.params._id, (error, producto) => {
+        if (error) {
+            return res.status(400).json({
+                error: error
+            })
+        }
+
+        res.status(200).json({
+            producto: producto
+        })
+    })
+
+})
+
 module.exports = app;
