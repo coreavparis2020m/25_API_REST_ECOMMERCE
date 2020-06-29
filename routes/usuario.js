@@ -27,4 +27,20 @@ app.post('/', (req, res) => {
     })
 })
 
+app.get('/:_id', (req, res) => {
+
+    Usuario.findById(req.params._id, (error, usuario) => {
+        if (error) {
+            return res.status(400).json({
+                error: error
+            })
+        }
+
+        res.status(200).json({
+            usuario: usuario
+        })
+    })
+
+})
+
 module.exports = app;
